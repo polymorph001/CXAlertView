@@ -20,8 +20,6 @@
 		8357110017E18FDF004C8155 /* CXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835710FE17E18FDF004C8155 /* CXViewController.xib */; };
 		8357110917E1917D004C8155 /* CXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357110817E1917D004C8155 /* CXAlertView.m */; };
 		8357116C17E1A745004C8155 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8357116B17E1A745004C8155 /* QuartzCore.framework */; };
-		8373C0D51803702200777B0D /* LFDisplayBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8373C0D11803702200777B0D /* LFDisplayBridge.m */; };
-		8373C0D61803702200777B0D /* LFGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8373C0D31803702200777B0D /* LFGlassView.m */; };
 		83AB028817F2A551005E51C4 /* CXAlertButtonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AB028717F2A551005E51C4 /* CXAlertButtonContainerView.m */; };
 		83AB028A17F2C26E005E51C4 /* bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AB028917F2C26E005E51C4 /* bkg.png */; };
 		83AB028C17F2C439005E51C4 /* taipei101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83AB028B17F2C439005E51C4 /* taipei101.jpg */; };
@@ -52,11 +50,6 @@
 		8357110717E1917D004C8155 /* CXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertView.h; sourceTree = "<group>"; };
 		8357110817E1917D004C8155 /* CXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAlertView.m; sourceTree = "<group>"; };
 		8357116B17E1A745004C8155 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		8373C0D01803702200777B0D /* LFDisplayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDisplayBridge.h; sourceTree = "<group>"; };
-		8373C0D11803702200777B0D /* LFDisplayBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDisplayBridge.m; sourceTree = "<group>"; };
-		8373C0D21803702200777B0D /* LFGlassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFGlassView.h; sourceTree = "<group>"; };
-		8373C0D31803702200777B0D /* LFGlassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGlassView.m; sourceTree = "<group>"; };
-		8373C0D41803702200777B0D /* LiveFrost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveFrost.h; sourceTree = "<group>"; };
 		83AB028617F2A551005E51C4 /* CXAlertButtonContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertButtonContainerView.h; sourceTree = "<group>"; };
 		83AB028717F2A551005E51C4 /* CXAlertButtonContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAlertButtonContainerView.m; sourceTree = "<group>"; };
 		83AB028917F2C26E005E51C4 /* bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg.png; sourceTree = "<group>"; };
@@ -150,11 +143,6 @@
 		8357110617E18FFD004C8155 /* CXAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				8373C0D01803702200777B0D /* LFDisplayBridge.h */,
-				8373C0D11803702200777B0D /* LFDisplayBridge.m */,
-				8373C0D21803702200777B0D /* LFGlassView.h */,
-				8373C0D31803702200777B0D /* LFGlassView.m */,
-				8373C0D41803702200777B0D /* LiveFrost.h */,
 				83B3A84517E9B19E001BCBC6 /* CXAlertBackgroundWindow.h */,
 				83B3A84617E9B19E001BCBC6 /* CXAlertBackgroundWindow.m */,
 				83B3A84817E9B1A7001BCBC6 /* CXAlertButtonItem.h */,
@@ -241,13 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				835710F017E18FDF004C8155 /* main.m in Sources */,
-				8373C0D51803702200777B0D /* LFDisplayBridge.m in Sources */,
 				835710F417E18FDF004C8155 /* CXAppDelegate.m in Sources */,
 				835710FD17E18FDF004C8155 /* CXViewController.m in Sources */,
 				8357110917E1917D004C8155 /* CXAlertView.m in Sources */,
 				83B3A84417E9B18D001BCBC6 /* CXAlertViewController.m in Sources */,
 				83B3A84717E9B19E001BCBC6 /* CXAlertBackgroundWindow.m in Sources */,
-				8373C0D61803702200777B0D /* LFGlassView.m in Sources */,
 				83B3A84A17E9B1A7001BCBC6 /* CXAlertButtonItem.m in Sources */,
 				83AB028817F2A551005E51C4 /* CXAlertButtonContainerView.m in Sources */,
 			);
